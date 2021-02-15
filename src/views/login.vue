@@ -1,6 +1,6 @@
 <template>
   <el-form class="login-container" :model="loginForm" :rules="loginRules" ref="loginRef">
-    <h3 class="login-title">登陆111</h3>
+    <h3 class="login-title">登陆</h3>
     <el-form-item prop="username" label="账号">
       <el-input placeholder="请输入账号" v-model="loginForm.username"></el-input>
     </el-form-item>
