@@ -34,8 +34,8 @@ jobs:
           # 元目录
           SOURCE: "dist"
           # 服务器 IP 地址
-          REMOTE_HOST: ""
+          REMOTE_HOST: "47.93.230.33"
           # 用户
-          REMOTE_USER: ""
+          REMOTE_USER: "root"
           # 目标地址
           TARGET: "/root/vue-in-action"
