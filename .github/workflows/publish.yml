@@ -12,17 +12,21 @@ jobs:
       # 获取源码
       - name: 迁出代码
         uses: actions/checkout@master
+
       # 安装 node10
       - name: 安装 node.js
         uses: actions/setup-node@v1
         with:
           node-version: 14.0.0
+
       # 安装依赖
       - name: 安装依赖
         run: npm install
+
       # 打包
       - name: 打包
         run: npm run build
+        
       # 上传 阿里云
       - name: 发布到阿里云
         uses: easingthemes/ssh-deploy@2.1.1
